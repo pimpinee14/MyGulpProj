@@ -17,4 +17,6 @@ gulp.task('compile', function () {
 			.pipe(gulp.dest('./dist'));
 });
 
-gulp.task('default', ['compile']);
+gulp.task('default', ['compile'], function() {
+	gulp.watch("src/views/index.twig", ['compile']);
+});
