@@ -18,5 +18,8 @@
   "homepage": "https://github.com/pimpinee14/MyGulpProj#readme",
   "devDependencies": {
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-twig": "^1.1.1"
   }
 }
